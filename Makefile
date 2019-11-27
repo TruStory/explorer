@@ -2,7 +2,7 @@ REGISTRY=trustory
 IMAGE=explorer
 
 
-docker-build:
+docker-build: pull-submodule
 	docker build . -t $(REGISTRY)/$(IMAGE)
 
 push: docker-build
