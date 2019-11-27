@@ -20,8 +20,8 @@
   },
   "genesisFile": "https://raw.githubusercontent.com/TruStory/testnets/master/testnet-1/genesis.json",
   "remote": {
-    "rpc": "",
-    "lcd": ""
+    "rpc": "https://rpc.testnet.trustory.io",
+    "lcd": "https://stargate.testnet.trustory.io"
   },
   "debug": {
     "startTimer": true,
