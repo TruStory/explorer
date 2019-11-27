@@ -3,7 +3,7 @@ name: Build and push latest
 on:
   push:
     branches:
-      - feature/add-big-dipper
+      - master
 
 jobs:
   build:
