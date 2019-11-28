@@ -3,7 +3,7 @@ name: Build and push latest
 on:
   push:
     branches:
-      - master
+      - fix/transactions
 
 jobs:
   build:
